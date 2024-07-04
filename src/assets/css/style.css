@@ -4,16 +4,21 @@
 }
 .container{
  width: 650px;
+ height: 600px;
  margin: 0 auto;
+ padding: 1rem;
+ font-weight: bold;
  /* margin = espace exterieur */
  /* padding: 50px; */
  /* padding = espace interieure */
- background-color: red;
- font-weight: bold;
+ /* background-color: red; */
 }
 .header__primary{
  background-color: aqua;
  font-weight: normal;
+ height: 180px;
+ padding: 3rem;
+
 }
 
 ul.menu{
@@ -21,4 +26,17 @@ ul.menu{
  display: flex;
  list-style: none;
  justify-content: space-around;
+}
+a:hover{
+  color: chocolate;
+  background-color: red;
+}
+
+img{
+ width: 200px;
+ height: 200px;
+ border: 2rem solid rgb(22, 85, 186)
+}
+img:hover{
+  border-color: red;
 }

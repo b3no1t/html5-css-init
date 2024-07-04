@@ -1,0 +1,24 @@
+*{
+ /* * = selectionne moi toutes les balises */
+ margin: 0;
+}
+.container{
+ width: 650px;
+ margin: 0 auto;
+ /* margin = espace exterieur */
+ /* padding: 50px; */
+ /* padding = espace interieure */
+ background-color: red;
+ font-weight: bold;
+}
+.header__primary{
+ background-color: aqua;
+ font-weight: normal;
+}
+
+ul.menu{
+ background-color: bisque;
+ display: flex;
+ list-style: none;
+ justify-content: space-around;
+}
